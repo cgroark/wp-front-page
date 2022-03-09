@@ -1,0 +1,167 @@
+/**
+ * Sharing styles
+ * Loads on front end and back end
+ */
+.gb-block-sharing {
+  margin: 0 0 1.2em 0;
+  position: relative;
+}
+
+.gb-block-sharing .blocks-rich-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.gb-block-sharing .gb-share-list {
+  margin: 0;
+  padding: 0;
+}
+
+.gb-block-sharing .gb-share-list li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+
+.gb-block-sharing .gb-share-list a {
+  background: #272c30;
+  border-width: 0;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  line-height: 1;
+  font-size: 16px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.gb-block-sharing .gb-share-list a:hover {
+  -webkit-box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15);
+          box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15);
+}
+
+.gb-block-sharing .gb-share-list svg {
+  vertical-align: text-top;
+}
+
+.gb-block-sharing.gb-share-icon-text svg {
+  margin-right: 5px;
+}
+
+.gb-block-sharing.gb-share-icon-only a {
+  padding: 10px 11px;
+  min-width: 37px;
+}
+
+.gb-block-sharing.gb-share-icon-only .gb-social-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.gb-block-sharing.gb-share-text-only svg {
+  display: none;
+}
+
+.gb-block-sharing.gb-share-shape-square a {
+  border-radius: 0;
+}
+
+.gb-block-sharing.gb-share-shape-rounded a {
+  border-radius: 5px;
+}
+
+.gb-block-sharing.gb-share-shape-circular a {
+  border-radius: 100px;
+}
+
+.gb-block-sharing.gb-share-size-small a {
+  font-size: 13px;
+}
+
+.gb-block-sharing.gb-share-size-small svg {
+  width: 13px;
+  height: 13px;
+}
+
+.gb-block-sharing.gb-share-size-small.gb-share-icon-only a {
+  padding: 7px 6px;
+  min-width: 28px;
+}
+
+.gb-block-sharing.gb-share-size-medium a {
+  font-size: 16px;
+}
+
+.gb-block-sharing.gb-share-size-medium svg {
+  width: 16px;
+  height: 16px;
+}
+
+.gb-block-sharing.gb-share-size-large a {
+  font-size: 20px;
+}
+
+.gb-block-sharing.gb-share-size-large svg {
+  width: 26px;
+  height: 26px;
+}
+
+.gb-block-sharing.gb-share-size-large.gb-share-icon-only a {
+  font-size: 26px;
+  min-width: 48px;
+}
+
+.gb-block-sharing.gb-share-size-large.gb-share-icon-text svg {
+  margin-right: 10px;
+}
+
+.gb-block-sharing.gb-share-color-social a {
+  color: #fff;
+}
+
+.gb-block-sharing.gb-share-color-social .gb-share-twitter {
+  background: #1ca1f3;
+}
+
+.gb-block-sharing.gb-share-color-social .gb-share-facebook {
+  background: #3b5999;
+}
+
+.gb-block-sharing.gb-share-color-social .gb-share-google {
+  background: #dc4b45;
+}
+
+.gb-block-sharing.gb-share-color-social .gb-share-pinterest {
+  background: #bd091c;
+}
+
+.gb-block-sharing.gb-share-color-social .gb-share-linkedin {
+  background: #0077b5;
+}
+
+.gb-block-sharing.gb-share-color-social .gb-share-reddit {
+  background: #ff4500;
+}
+
+.gb-button-right {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: 100%;
+  position: relative;
+}
+
+.gb-button-center {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

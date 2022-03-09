@@ -1,0 +1,51 @@
+//base colors
+
+$black: #333;
+$white: #fff;
+$lightgrey: #f5f1f1;
+
+//variable colors
+$primary-color: #c08497;
+$primary-color-hover: #8f5f6e;
+$secondary-color: #f7af9d;
+$secondary-color-hover: #D19687;
+$tertiary-color: #b0d0d3;
+$tertiary-color-hover: #99B4B6;
+$fourth-color: #ffcad4;
+$fourth-color-hover: #E9BBC3;
+
+//navigation
+$nav-background: $black;
+$nav-text: $white;
+$nav-active-text: $black;
+$nav-active: $secondary-color;
+$nav-box-shadow: 0 0 0 $lightgrey;
+
+//headings and site header
+$site-title-color: $white;
+$main-site-header-size: 11rem;
+$main-site-header-mobile: 5rem;
+$main-header-font: 'Tenor Sans', sans-serif;
+$section-header-size: 3rem;
+$section-header-font: 'Tenor Sans', sans-serif;
+$header-background-color: transparent;
+$header-background-image: url(/wp-demo/wp-content/uploads/2022/03/ferns.jpg);
+$header-height: 95vh;
+
+//features
+$body-font: 'Roboto', sans-serif;
+$image-box-shadow: 0 0 0 $lightgrey;
+$caption-background: $black;
+$caption-color: $white;
+$callout-box-shadow: 5px 5px 1px $tertiary-color;
+$callout-background-color: $lightgrey;
+$callout-header-border: solid 2px $secondary-color;
+$callout-header-size: 2rem;
+$callout-header-font: 'Tenor Sans', sans-serif;
+$accordion-background: transparent;
+$accordion-background-hover: transparent;
+$accordion-border: solid 2px $tertiary-color;
+$animate-rise-amount: 50px;
+$link-color: $primary-color-hover;
+$link-weight: 700;
+

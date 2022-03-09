@@ -1,0 +1,74 @@
+/**
+ * Drop cap styles
+ * Loads on front end and back end
+ */
+.entry-content .gb-block-drop-cap {
+  /* Font size styles */
+}
+
+.entry-content .gb-block-drop-cap .gb-drop-cap-text p::first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 0.7em;
+  margin-top: 0.15em;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.entry-content .gb-block-drop-cap.gb-drop-cap-square .gb-drop-cap-text p::first-letter {
+  background: #32373c;
+  color: #fff;
+  padding: 0.2em;
+}
+
+.entry-content .gb-block-drop-cap.gb-drop-cap-border .gb-drop-cap-text p::first-letter {
+  color: #32373c;
+  padding: 0.2em;
+  border: solid 4px;
+}
+
+@media only screen and (min-width: 600px) {
+  .entry-content .gb-block-drop-cap.gb-font-size-1 .gb-drop-cap-text::first-letter {
+    font-size: 75px;
+  }
+  .entry-content .gb-block-drop-cap.gb-font-size-2 .gb-drop-cap-text::first-letter {
+    font-size: 85px;
+  }
+  .entry-content .gb-block-drop-cap.gb-font-size-3 .gb-drop-cap-text::first-letter {
+    font-size: 95px;
+  }
+  .entry-content .gb-block-drop-cap.gb-font-size-4 .gb-drop-cap-text::first-letter {
+    font-size: 105px;
+  }
+  .entry-content .gb-block-drop-cap.gb-font-size-5 .gb-drop-cap-text::first-letter {
+    font-size: 115px;
+  }
+  .entry-content .gb-block-drop-cap.gb-font-size-6 .gb-drop-cap-text p::first-letter {
+    font-size: 125px;
+  }
+}
+
+.gb-block-drop-cap::before, .gb-block-drop-cap::after {
+  content: "";
+  display: table;
+}
+
+.gb-block-drop-cap::after {
+  clear: both;
+}
+
+.gb-block-drop-cap a {
+  color: inherit;
+  -webkit-box-shadow: 0 -1px 0 inset;
+          box-shadow: 0 -1px 0 inset;
+  text-decoration: none;
+}
+
+.gb-block-drop-cap a:hover {
+  color: inherit;
+  -webkit-box-shadow: 0 -2px 0 inset;
+          box-shadow: 0 -2px 0 inset;
+}
+/*# sourceMappingURL=style.css.map */

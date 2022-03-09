@@ -1,0 +1,19 @@
+/**
+ * Editor styles for the admin
+ */
+.gb-block-button + .blocks-button__inline-link .editor-url-input,
+.gb-block-button + .blocks-button__inline-link .block-editor-url-input {
+  display: inline-block;
+  width: auto;
+}
+
+.gb-block-button + .blocks-button__inline-link .components-button {
+  display: inline-block;
+  padding: 8px;
+}
+
+.gb-block-button + .blocks-button__inline-link svg {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+/*# sourceMappingURL=editor.css.map */

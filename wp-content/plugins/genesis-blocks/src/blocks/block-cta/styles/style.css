@@ -1,0 +1,329 @@
+/**
+ * CTA styles
+ * Loads on front end and back end
+ */
+.gb-block-cta {
+  margin: 0 0 1.2em 0;
+  position: relative;
+  background: #f2f2f2;
+  color: #293038;
+  padding: 5% 3%;
+  border-radius: 5px;
+}
+
+.gb-block-cta .components-autocomplete {
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gb-block-cta * {
+  z-index: 10;
+  position: relative;
+}
+
+.gb-block-cta.alignfull {
+  border-radius: 0;
+  padding: 8% 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  .gb-block-cta {
+    padding: 8% 6%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gb-block-cta.alignfull .gb-cta-content,
+  .gb-block-cta.alignfull .gb-cta-button {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gb-block-cta.alignwide .gb-cta-content,
+  .gb-block-cta.alignwide .gb-cta-button {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.gb-block-cta .gb-cta-image-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.gb-block-cta .gb-cta-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.gb-block-cta .gb-cta-title {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0.3em;
+  line-height: 1.2;
+}
+
+.gb-block-cta .gb-cta-text {
+  line-height: 1.4;
+}
+
+.gb-block-cta .gb-cta-text p {
+  color: inherit;
+}
+
+.gb-block-cta .gb-cta-text a {
+  color: inherit;
+  -webkit-box-shadow: 0 -1px 0 inset;
+          box-shadow: 0 -1px 0 inset;
+  text-decoration: none;
+}
+
+.gb-block-cta .gb-cta-text a:hover {
+  color: inherit;
+  -webkit-box-shadow: 0 -2px 0 inset;
+          box-shadow: 0 -2px 0 inset;
+}
+
+.gb-block-cta .gb-cta-button .blocks-rich-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.gb-block-cta .gb-button {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1 !important;
+  background-color: #32373c;
+  border: none;
+  border-radius: 50px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  word-break: break-word;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.gb-block-cta .gb-button:hover {
+  -webkit-box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15);
+          box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15);
+}
+
+.gb-block-cta .gb-cta-title:empty,
+.gb-block-cta .gb-cta-text:empty,
+.gb-block-cta .gb-cta-button:empty,
+.gb-block-cta .gb-button:empty {
+  display: none;
+}
+
+.gb-block-cta .gb-button-shape-square {
+  border-radius: 0;
+}
+
+.gb-block-cta .gb-button-shape-rounded {
+  border-radius: 5px;
+}
+
+.gb-block-cta .gb-button-shape-circular {
+  border-radius: 100px;
+}
+
+.gb-block-cta .gb-button-size-small {
+  font-size: 14px;
+}
+
+.gb-block-cta .gb-button-size-medium {
+  font-size: 20px;
+}
+
+.gb-block-cta .gb-button-size-large {
+  font-size: 26px;
+  padding: 0.8em 1.2em;
+}
+
+.gb-block-cta .gb-button-size-extralarge {
+  font-size: 32px;
+  padding: 0.8em 1.2em;
+}
+
+.gb-block-cta .gb-font-size-24.gb-cta-title {
+  font-size: 24px;
+}
+
+.gb-block-cta .gb-font-size-26.gb-cta-title {
+  font-size: 26px;
+}
+
+.gb-block-cta .gb-font-size-28.gb-cta-title {
+  font-size: 28px;
+}
+
+.gb-block-cta .gb-font-size-30.gb-cta-title {
+  font-size: 30px;
+}
+
+.gb-block-cta .gb-font-size-32.gb-cta-title {
+  font-size: 32px;
+}
+
+.gb-block-cta .gb-font-size-34.gb-cta-title {
+  font-size: 34px;
+}
+
+.gb-block-cta .gb-font-size-36.gb-cta-title {
+  font-size: 36px;
+}
+
+.gb-block-cta .gb-font-size-38.gb-cta-title {
+  font-size: 38px;
+}
+
+.gb-block-cta .gb-font-size-40.gb-cta-title {
+  font-size: 40px;
+}
+
+.gb-block-cta .gb-font-size-42.gb-cta-title {
+  font-size: 42px;
+}
+
+.gb-block-cta .gb-font-size-44.gb-cta-title {
+  font-size: 44px;
+}
+
+.gb-block-cta .gb-font-size-46.gb-cta-title {
+  font-size: 46px;
+}
+
+.gb-block-cta .gb-font-size-48.gb-cta-title {
+  font-size: 48px;
+}
+
+.gb-block-cta .gb-font-size-50.gb-cta-title {
+  font-size: 50px;
+}
+
+.gb-block-cta .gb-font-size-52.gb-cta-title {
+  font-size: 52px;
+}
+
+.gb-block-cta .gb-font-size-54.gb-cta-title {
+  font-size: 54px;
+}
+
+.gb-block-cta .gb-font-size-56.gb-cta-title {
+  font-size: 56px;
+}
+
+.gb-block-cta .gb-font-size-58.gb-cta-title {
+  font-size: 58px;
+}
+
+.gb-block-cta .gb-font-size-60.gb-cta-title {
+  font-size: 60px;
+}
+
+.gb-block-cta .blocks-button__inline-link {
+  margin-top: 15px;
+}
+
+.gb-block-cta .gb-cta-image:not(.has-background-dim) {
+  opacity: 0;
+}
+
+.gb-block-cta .has-background-dim {
+  opacity: 0.5;
+}
+
+.gb-block-cta .has-background-dim-10 {
+  opacity: 0.1;
+}
+
+.gb-block-cta .has-background-dim-20 {
+  opacity: 0.2;
+}
+
+.gb-block-cta .has-background-dim-30 {
+  opacity: 0.3;
+}
+
+.gb-block-cta .has-background-dim-40 {
+  opacity: 0.4;
+}
+
+.gb-block-cta .has-background-dim-50 {
+  opacity: 0.5;
+}
+
+.gb-block-cta .has-background-dim-60 {
+  opacity: 0.6;
+}
+
+.gb-block-cta .has-background-dim-70 {
+  opacity: 0.7;
+}
+
+.gb-block-cta .has-background-dim-80 {
+  opacity: 0.8;
+}
+
+.gb-block-cta .has-background-dim-90 {
+  opacity: 0.9;
+}
+
+.gb-block-cta .has-background-dim-100 {
+  opacity: 1;
+}
+
+.gb-button-right {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: 100%;
+  position: relative;
+}
+
+.gb-button-center {
+  margin: 0 auto;
+}
+
+.gb-cta-inspector-media.components-button {
+  vertical-align: top;
+  border: 1px solid #e2e4e7;
+  background-color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.gb-cta-inspector-media.components-button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: solid 1px #555d66;
+}
+
+.gb-cta-inspector-media.components-button:first-child {
+  margin-right: 8px;
+}
+
+.gb-cta-inspector-media.components-button svg {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

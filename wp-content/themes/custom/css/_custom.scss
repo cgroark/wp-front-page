@@ -1,0 +1,16 @@
+#side-graphic{
+    display: none;
+    background-color: $fourth-color;
+    height: 480%;
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+    position: absolute;
+    width: 550px;
+    top: -65px;
+    right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    #side-graphic{
+      display: none !important;
+    }
+  }

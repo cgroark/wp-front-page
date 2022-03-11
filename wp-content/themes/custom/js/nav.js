@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
   jQuery('.header-widget').append(`<a id="opening-chevron" href="#${firstID}"><i class="fa fa-chevron-down"></i>`)
 
   //add class to any element that should be animated to rise
-  jQuery('.entry-content, figure').addClass('animate-rise')
+  jQuery('.entry-content, figure, #side-graphic').addClass('animate-rise')
 
   //smooth scroll to section
   $('a[href^="#"]').on('click', function (e) {

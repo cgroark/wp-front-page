@@ -18,20 +18,23 @@ article.post{
     padding: 40px 20px 10px 20px;
 }
 .entry-content{
+    z-index: 1000;
     .wp-block-columns{
         margin: 0;
     }
     figure{
         box-shadow: $image-box-shadow;
-        &:hover{
-            img{
-                transform: scale(1.02);
-                transition: transform .4s ease;
-                cursor: pointer;
+        &.scale{
+            &:hover{
+                img{
+                    transform: scale(1.02);
+                    transition: transform .4s ease;
+                    cursor: pointer;
+                }  
             }
             figcaption{
-                border-bottom: 4px solid $caption-background;
-                border-right: 4px solid $caption-background;
+                border-bottom: none;
+                border-right: none;
                 transition: border-bottom .3s ease, border-right .3s .1s ease;
             }
         }
@@ -44,9 +47,9 @@ article.post{
             display: inline-block;
             background-color: $caption-background;
             color: $caption-color;
-            padding: 3px 5px 3px 3px;
-            border-bottom: 4px solid $white;
-            border-right: 4px solid $white;
+            padding: 3px 5px 3px 0;
+            border-bottom: none;
+            border-right: none;
             transition: border-bottom .3s ease, border-right .3s ease;
 
         }
@@ -56,6 +59,7 @@ article.post{
     margin-top: $animate-rise-amount + 10px;
 }
 .current{
+    display: block !important;
     transform: translateY(-$animate-rise-amount);
     -webkit-transform: translateY(-50px);
     -webkit-transition: opacity .6s .1s,-webkit-transform .6s ease;

@@ -4,7 +4,7 @@ nav{
     display: block;
     padding: 0.5px 0;
     background-color: $nav-background;
-    z-index: 1000;
+    z-index: 10000;
     &.inplay{
         opacity: .9;
         background-color: $nav-active;  
@@ -17,7 +17,7 @@ nav{
         transition: opacity .6s .1s,transform .6s ease,-webkit-transform .6s ease;
         .primary-nav ul#menu-primary li a{
             font-weight: 400;
-            color: $nav-active-text;
+            color: $nav-active-text !important;
         } 
     }
     .primary-nav{

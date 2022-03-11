@@ -100,6 +100,10 @@ article.post {
   padding: 40px 20px 10px 20px;
 }
 
+.entry-content {
+  z-index: 1000;
+}
+
 .entry-content .wp-block-columns {
   margin: 0;
 }
@@ -109,7 +113,7 @@ article.post {
           box-shadow: 0 0 0 #f5f1f1;
 }
 
-.entry-content figure:hover img {
+.entry-content figure.scale:hover img {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
   -webkit-transition: -webkit-transform .4s ease;
@@ -119,9 +123,9 @@ article.post {
   cursor: pointer;
 }
 
-.entry-content figure:hover figcaption {
-  border-bottom: 4px solid #333;
-  border-right: 4px solid #333;
+.entry-content figure.scale figcaption {
+  border-bottom: none;
+  border-right: none;
   -webkit-transition: border-bottom .3s ease, border-right .3s .1s ease;
   transition: border-bottom .3s ease, border-right .3s .1s ease;
 }
@@ -137,11 +141,11 @@ article.post {
 .entry-content figure figcaption {
   margin: 10px 0 0 0;
   display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 3px 5px 3px 3px;
-  border-bottom: 4px solid #fff;
-  border-right: 4px solid #fff;
+  background-color: transparent;
+  color: #333;
+  padding: 3px 5px 3px 0;
+  border-bottom: none;
+  border-right: none;
   -webkit-transition: border-bottom .3s ease, border-right .3s ease;
   transition: border-bottom .3s ease, border-right .3s ease;
 }
@@ -151,6 +155,7 @@ article.post {
 }
 
 .current {
+  display: block !important;
   transform: translateY(-50px);
   -webkit-transform: translateY(-50px);
   -webkit-transition: opacity .6s .1s,-webkit-transform .6s ease;
@@ -179,12 +184,12 @@ nav {
   display: block;
   padding: 0.5px 0;
   background-color: #333;
-  z-index: 1000;
+  z-index: 10000;
 }
 
 nav.inplay {
   opacity: .9;
-  background-color: #f7af9d;
+  background-color: #b0d0d3;
   -webkit-box-shadow: 0 0 0 #f5f1f1;
           box-shadow: 0 0 0 #f5f1f1;
   -webkit-transform: translateY(-5px);
@@ -198,7 +203,7 @@ nav.inplay {
 
 nav.inplay .primary-nav ul#menu-primary li a {
   font-weight: 400;
-  color: #333;
+  color: #333 !important;
 }
 
 nav .primary-nav ul#menu-primary {
@@ -395,5 +400,23 @@ details summary::-webkit-details-marker {
   margin-right: auto;
   width: 70%;
   padding-top: 10px;
+}
+
+#side-graphic {
+  display: none;
+  background-color: #ffcad4;
+  height: 480%;
+  -webkit-clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+          clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+  position: absolute;
+  width: 550px;
+  top: -65px;
+  right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  #side-graphic {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=custom.css.map */

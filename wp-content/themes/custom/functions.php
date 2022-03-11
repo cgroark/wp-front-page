@@ -83,6 +83,7 @@ function child_theme_setup() {
 	add_action( 'wp_enqueue_scripts', 'enqueue_load_fa');
 
 }
+/* add heading ID to section heading h2 */
 add_filter( 'genesis_post_title_output', 'custom_post_title' );
 	function custom_post_title( $title ) {
 		if( get_post_type( get_the_ID() ) == 'post' ) {
@@ -164,19 +165,15 @@ function wsm_custom_stylesheet() {
 	wp_enqueue_script( 'nav', get_stylesheet_directory_uri() . '/js/nav.js', array('jquery'));
 
 }
-
 //Add bootstrap
 function wpbootstrap_enqueue_styles() {
 	wp_enqueue_style( 'bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' );
 	wp_enqueue_script( 'bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js', array('jquery'));
 }
-
 //Add google fonts
-
 function wpb_add_google_fonts() {
 	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tenor+Sans&display=swap', false );
 }
-
 //Add font awesome
 function enqueue_load_fa() {
 	wp_enqueue_style( 'load-fa', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' );

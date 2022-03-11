@@ -18,7 +18,7 @@ $fourth-color-hover: #E9BBC3;
 $nav-background: $black;
 $nav-text: $white;
 $nav-active-text: $black;
-$nav-active: $secondary-color;
+$nav-active: $tertiary-color;
 $nav-box-shadow: 0 0 0 $lightgrey;
 
 //headings and site header
@@ -35,8 +35,8 @@ $header-height: 95vh;
 //features
 $body-font: 'Roboto', sans-serif;
 $image-box-shadow: 0 0 0 $lightgrey;
-$caption-background: $black;
-$caption-color: $white;
+$caption-background: transparent;
+$caption-color: $black;
 $callout-box-shadow: 5px 5px 1px $tertiary-color;
 $callout-background-color: $lightgrey;
 $callout-header-border: solid 2px $secondary-color;

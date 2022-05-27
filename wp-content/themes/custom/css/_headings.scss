@@ -23,7 +23,7 @@
             }
         }
     h1{
-        font-size: $main-site-header-size;
+        font-size: $h1-font-size;
         font-family: $main-header-font;
         margin: 0;
         color: $site-title-color;
@@ -31,7 +31,7 @@
     }
 }
 h2.entry-title{
-    font-size: $section-header-size;
+    font-size: $section-heading-size;
     font-family: $section-header-font;
     margin-bottom: 20px;
 }
@@ -53,10 +53,4 @@ h2.entry-title{
     }
   }
 
-  @media screen and (max-width: 790px) {
-    .header-widget {
-      h1{
-        font-size: $main-site-header-mobile;
-      }
-    }
-  }
+ 

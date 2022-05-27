@@ -44,8 +44,6 @@ jQuery(document).ready(function ($) {
     }
     //animation for section rise
     let bottomToTop = jQuery(window).height() + jQuery(window).scrollTop();
-    
-
     let riseAnimated = document.querySelectorAll('.animate-rise')
     var i = 0;
     while(i<riseAnimated.length){
@@ -61,18 +59,21 @@ jQuery(document).ready(function ($) {
 });
 // //top of element to top of document
 // jQuery('.entry-content')[0].offsetTop
+// (js) document.querySelectorAll("#welcome").offetTop
 
 // //height of element
 // jQuery('.entry-content')[0].offsetHeight
 
 // //height of viewport
 // jQuery(window).height()
+// (js) window.innerHeight
 
 // //height of entire document
 // jQuery(document).height()
 
 // //top of viewport to top of document
 // jQuery(window).scrollTop()
+// (js) window.pageYOffset
 
 // //bottom of viewport tp top of documment
 // jQuery(window).height() + jQuery(window).scrollTop() 

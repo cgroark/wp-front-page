@@ -27,7 +27,7 @@ nav{
             li{
                 display: inline-block;
                 padding: 4px 6px;
-                margin-left: 25px;
+                margin-left: $nav-left-margin;
                 border-bottom: 3px solid $nav-text;
                 transition: border-bottom .3s ease-in-out, background-color .3s ease-in-out;
                 -webkit-transition: border-bottom .3s ease-in-out, background-color .3s ease-in-out;
@@ -46,6 +46,7 @@ nav{
                     color: $nav-text !important;
                     text-decoration: none;
                     font-weight: 700;
+                    font-size: $nav-font-size;
                     &.active{
                         background-color: $primary-color-hover;
                     }

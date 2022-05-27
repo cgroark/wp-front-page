@@ -1,5 +1,10 @@
-//base colors
+//clamp variables
+$h1-font-size: clamp(5rem, unquote("1.0000rem + 13.3333vw"), 11rem);
+$nav-font-size: clamp(0.7rem, unquote("0.4857rem + 0.9524vw"), 1.2rem);
+$nav-left-margin: clamp(0.8rem, unquote("0.5000rem + 1.3333vw"), 1.5rem);
+$section-heading-size: clamp(1.7rem, unquote("1.1429rem + 2.4762vw"), 3rem);
 
+//base colors
 $black: #333;
 $white: #fff;
 $lightgrey: #f5f1f1;
